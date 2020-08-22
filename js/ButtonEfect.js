@@ -56,3 +56,24 @@ function btnClicmas(x) {
         document.getElementById(x).style.height = "100%";
     };
 }
+
+btnClic("0");
+btnClic("1");
+btnClic("2");
+btnClic("3");
+btnClic("punto");
+btnClic("igual");
+btnClicf("4");
+btnClicf("5");
+btnClicf("6");
+btnClicf("7");
+btnClicf("8");
+btnClicf("9");
+btnClicf("on");
+btnClicf("sign");
+btnClicf("dividido");
+btnClicf("raiz");
+btnClicf("por");
+btnClicf("menos");
+btnClicmas("mas");
+    
