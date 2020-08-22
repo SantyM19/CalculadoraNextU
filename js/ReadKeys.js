@@ -23,11 +23,16 @@ function ReadKeys() {
     //Function Numbers
 
     function displayDate0() {
+        //Read Content of the Item
         var d = document.getElementById("display");
         num = "0";
+        //Function ButtonEffect
         id="0";
         btnClic(id);
+        //Send The New Content to Display
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Apply Conversion Float
+        Conversion();
     }
 
     function displayDate1() {
@@ -36,6 +41,7 @@ function ReadKeys() {
         id="1";
         btnClic(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        Conversion();
     }
 
     function displayDate2() {
@@ -44,6 +50,7 @@ function ReadKeys() {
         id="2";
         btnClic(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        Conversion();
     }
 
     function displayDate3() {
@@ -52,6 +59,7 @@ function ReadKeys() {
         id="3";
         btnClic(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        Conversion();
     }
 
     function displayDate4() {
@@ -60,6 +68,7 @@ function ReadKeys() {
         id="4";
         btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        Conversion();
     }
 
     function displayDate5() {
@@ -68,6 +77,7 @@ function ReadKeys() {
         id="5";
         btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        Conversion();
     }
 
     function displayDate6() {
@@ -76,6 +86,7 @@ function ReadKeys() {
         id="6";
         btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        Conversion();
     }
 
     function displayDate7() {
@@ -84,6 +95,7 @@ function ReadKeys() {
         id="7";
         btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        Conversion();
     }
 
     function displayDate8() {
@@ -92,6 +104,7 @@ function ReadKeys() {
         id="8";
         btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        Conversion();
     }
 
     function displayDate9() {
@@ -100,9 +113,10 @@ function ReadKeys() {
         id="9";
         btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        Conversion();
     }
 
-    //Functions logics 
+    //Functions logic 
 
     function on() {
         id="on";
