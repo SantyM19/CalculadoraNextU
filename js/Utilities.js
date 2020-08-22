@@ -40,3 +40,13 @@ function Negatives(){
     //Conv to String and send
     document.getElementById("display").innerHTML=conv;
 }
+
+//Validating 8 Digits
+function EightDigits(){
+    Digits=document.getElementById("display").innerHTML;
+    //ArrayLength
+    if (Digits.length>8){
+        Digits=Digits.slice(0, 8);
+    }
+    document.getElementById("display").innerHTML=Digits;
+}

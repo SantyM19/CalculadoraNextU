@@ -33,6 +33,8 @@ function ReadKeys() {
         document.getElementById("display").innerHTML = d.innerHTML + num;
         //Apply Conversion Float
         Conversion();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     function displayDate1() {
@@ -40,8 +42,12 @@ function ReadKeys() {
         num = "1";
         id="1";
         btnClic(id);
+        //Send The New Content to Display
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Apply Conversion Float
         Conversion();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     function displayDate2() {
@@ -49,8 +55,12 @@ function ReadKeys() {
         num = "2";
         id="2";
         btnClic(id);
+        //Send The New Content to Display
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Apply Conversion Float
         Conversion();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     function displayDate3() {
@@ -58,8 +68,12 @@ function ReadKeys() {
         num = "3";
         id="3";
         btnClic(id);
+        //Send The New Content to Display
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Apply Conversion Float
         Conversion();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     function displayDate4() {
@@ -67,8 +81,12 @@ function ReadKeys() {
         num = "4";
         id="4";
         btnClicf(id);
+        //Send The New Content to Display
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Apply Conversion Float
         Conversion();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     function displayDate5() {
@@ -76,8 +94,12 @@ function ReadKeys() {
         num = "5";
         id="5";
         btnClicf(id);
+        //Send The New Content to Display
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Apply Conversion Float
         Conversion();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     function displayDate6() {
@@ -85,8 +107,12 @@ function ReadKeys() {
         num = "6";
         id="6";
         btnClicf(id);
+        //Send The New Content to Display
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Apply Conversion Float
         Conversion();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     function displayDate7() {
@@ -94,8 +120,12 @@ function ReadKeys() {
         num = "7";
         id="7";
         btnClicf(id);
+        //Send The New Content to Display
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Apply Conversion Float
         Conversion();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     function displayDate8() {
@@ -103,8 +133,12 @@ function ReadKeys() {
         num = "8";
         id="8";
         btnClicf(id);
+        //Send The New Content to Display
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Apply Conversion Float
         Conversion();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     function displayDate9() {
@@ -112,8 +146,12 @@ function ReadKeys() {
         num = "9";
         id="9";
         btnClicf(id);
+        //Send The New Content to Display
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Apply Conversion Float
         Conversion();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     //Functions logic 
@@ -170,6 +208,8 @@ function ReadKeys() {
         document.getElementById("display").innerHTML = d.innerHTML + num;
         //Verifing Point Rule
         VerifiPoint();
+        //Validating 8 Digits
+        EightDigits()
     }
 
     function igual() {
