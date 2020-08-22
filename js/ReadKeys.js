@@ -176,6 +176,10 @@ function ReadKeys() {
         id="dividido";
         btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Calculated
+        kind=num;
+        //Clean Display
+        CleanD();
     }
 
     function raiz() {
@@ -190,6 +194,10 @@ function ReadKeys() {
         id="por";
         btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Calculated
+        kind=num;
+        //Clean Display
+        CleanD();
     }
 
     function rest() {
@@ -198,6 +206,10 @@ function ReadKeys() {
         id="menos";
         btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Calculated
+        kind=num;
+        //Clean Display
+        CleanD();
     }
 
     function punto() {
@@ -215,7 +227,8 @@ function ReadKeys() {
     function igual() {
         id="igual";
         btnClic(id);
-        console.log("igual");
+        //Total
+        Total();
     }
 
     function mas() {
@@ -224,5 +237,9 @@ function ReadKeys() {
         id="mas";
         btnClicmas(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Calculated
+        kind=num;
+        //Clean Display
+        CleanD();
     }
 }
