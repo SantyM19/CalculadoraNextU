@@ -128,6 +128,8 @@ function ReadKeys() {
         id="sign";
         btnClicf(id);
         console.log("----");
+        //Function Signs Applied
+        Negatives();
     }
 
     function divide() {

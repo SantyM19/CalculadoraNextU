@@ -28,3 +28,15 @@ function VerifiPoint(){
     }
     document.getElementById("display").innerHTML=punto;
 }
+
+//Negative Nums
+function Negatives(){
+    //Read the Display
+    conv=document.getElementById("display").innerHTML;
+    //Conv to Float
+    conv=parseFloat(conv);
+    //Apply Negative
+    conv=conv*-1+0; 
+    //Conv to String and send
+    document.getElementById("display").innerHTML=conv;
+}
