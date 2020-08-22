@@ -20,111 +20,151 @@ function ReadKeys() {
     document.getElementById("igual").addEventListener("click", igual);
     document.getElementById("mas").addEventListener("click", mas);
 
-    function on() {
-        document.getElementById("display").innerHTML = "0";
-    }
-
-    function sign() {
-        console.log("----");
-    }
-
-    function divide() {
-        var d = document.getElementById("display");
-        num = "/";
-        document.getElementById("display").innerHTML = d.innerHTML + num;
-    }
-
-    function raiz() {
-        console.log("raiz");
-    }
-
-    function por() {
-        var d = document.getElementById("display");
-        num = "*";
-        document.getElementById("display").innerHTML = d.innerHTML + num;
-    }
-
-    function rest() {
-        var d = document.getElementById("display");
-        num = "-";
-        document.getElementById("display").innerHTML = d.innerHTML + num;
-    }
-
-    function punto() {
-        var d = document.getElementById("display");
-        num = ".";
-        document.getElementById("display").innerHTML = d.innerHTML + num;
-    }
-
-    function igual() {
-        console.log("igual");
-    }
-
-    function mas() {
-        var d = document.getElementById("display");
-        num = "+";
-        document.getElementById("display").innerHTML = d.innerHTML + num;
-    }
-
     //Function Numbers
 
     function displayDate0() {
         var d = document.getElementById("display");
         num = "0";
+        id="0";
+        btnClic(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
     }
 
     function displayDate1() {
         var d = document.getElementById("display");
         num = "1";
+        id="1";
+        btnClic(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
     }
 
     function displayDate2() {
         var d = document.getElementById("display");
         num = "2";
+        id="2";
+        btnClic(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
     }
 
     function displayDate3() {
         var d = document.getElementById("display");
         num = "3";
+        id="3";
+        btnClic(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
     }
 
     function displayDate4() {
         var d = document.getElementById("display");
         num = "4";
+        id="4";
+        btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
     }
 
     function displayDate5() {
         var d = document.getElementById("display");
         num = "5";
+        id="5";
+        btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
     }
 
     function displayDate6() {
         var d = document.getElementById("display");
         num = "6";
+        id="6";
+        btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
     }
 
     function displayDate7() {
         var d = document.getElementById("display");
         num = "7";
+        id="7";
+        btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
     }
 
     function displayDate8() {
         var d = document.getElementById("display");
         num = "8";
+        id="8";
+        btnClicf(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
     }
 
     function displayDate9() {
         var d = document.getElementById("display");
         num = "9";
+        id="9";
+        btnClicf(id);
+        document.getElementById("display").innerHTML = d.innerHTML + num;
+    }
+
+    //Functions logics 
+
+    function on() {
+        id="on";
+        btnClicf(id);
+        document.getElementById("display").innerHTML = "0";
+    }
+
+    function sign() {
+        id="sign";
+        btnClicf(id);
+        console.log("----");
+    }
+
+    function divide() {
+        var d = document.getElementById("display");
+        num = "/";
+        id="dividido";
+        btnClicf(id);
+        document.getElementById("display").innerHTML = d.innerHTML + num;
+    }
+
+    function raiz() {
+        console.log("raiz");
+        id="raiz";
+        btnClicf(id);
+    }
+
+    function por() {
+        var d = document.getElementById("display");
+        num = "*";
+        id="por";
+        btnClicf(id);
+        document.getElementById("display").innerHTML = d.innerHTML + num;
+    }
+
+    function rest() {
+        var d = document.getElementById("display");
+        num = "-";
+        id="menos";
+        btnClicf(id);
+        document.getElementById("display").innerHTML = d.innerHTML + num;
+    }
+
+    function punto() {
+        var d = document.getElementById("display");
+        num = ".";
+        id="punto";
+        btnClic(id);
+        document.getElementById("display").innerHTML = d.innerHTML + num;
+    }
+
+    function igual() {
+        id="igual";
+        btnClic(id);
+        console.log("igual");
+    }
+
+    function mas() {
+        var d = document.getElementById("display");
+        num = "+";
+        id="mas";
+        btnClicmas(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
     }
 }
