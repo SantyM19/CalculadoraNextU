@@ -166,6 +166,8 @@ function ReadKeys() {
         id="punto";
         btnClic(id);
         document.getElementById("display").innerHTML = d.innerHTML + num;
+        //Verifing Point Rule
+        VerifiPoint();
     }
 
     function igual() {
